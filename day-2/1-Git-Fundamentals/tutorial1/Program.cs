@@ -1,6 +1,12 @@
-using System;
+﻿using System;
 
-public static void Main(string[] args)
+namespace tutorial1
 {
-	Console.WriteLine("Hello.");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello .");
+        }
+    }
 }
