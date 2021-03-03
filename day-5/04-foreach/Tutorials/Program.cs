@@ -7,7 +7,7 @@ namespace Tutorials
         static void Main(string[] args)
         {
             /// Declaration examples of arays ///
-            /*
+            
              int[] array1 = new int[5];
              int[] array2 = new int[] { 1, 3, 5, 7, 9 };
              int[] array3 = { 1, 3, 5, 7, 9 };
@@ -51,10 +51,10 @@ namespace Tutorials
                 Console.WriteLine($"Element #{count}: {element}");
             }
             Console.WriteLine($"Number of elements: {count}");
-             */
+             
 
             /// Tutorial 1 ///
-            /*
+            
             Console.WriteLine("Input first number: ");
             string firstInput = Console.ReadLine();
             Console.WriteLine("Input second number: ");
@@ -80,10 +80,10 @@ namespace Tutorials
             {
                 Console.WriteLine("Incorrect format");
             }
-            */
+            
 
             /// Tutorial 2 ///
-            /*
+            
             for (int i = 0; i < 5; i ++)
             {
                 for (int j = 0; j < 5; j++)
@@ -99,7 +99,7 @@ namespace Tutorials
                 }
                 Console.WriteLine("\n");
             }
-            */
+            
         }
     }
 }
